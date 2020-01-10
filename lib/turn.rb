@@ -46,6 +46,6 @@ def turn(board)
   if !valid_move?(board, index)
     turn(board)
   else
-    move(board, user_input, character)
+    move(board, user_input)
   end
 end
